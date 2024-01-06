@@ -2,6 +2,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+/* header related styles */
+.header{
+    background-color: #fff8f3;
+}
 .text-primary {
 color: #FD6E0A;
 }
@@ -19,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title {
     color: #FD6E0A;
@@ -36,4 +41,11 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex; 
+}
+.banner .profile-picture{
+    width: 500px;
 }
